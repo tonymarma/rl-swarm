@@ -4,7 +4,7 @@ set -euo pipefail
 
 # General arguments
 ROOT=$PWD
-
+export WANDB_MODE=disabled
 export PUB_MULTI_ADDRS
 export PEER_MULTI_ADDRS
 export HOST_MULTI_ADDRS
